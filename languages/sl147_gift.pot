@@ -1,0 +1,204 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gift to cart\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-20 13:14+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0\n"
+"X-Domain: sl147_gift"
+
+#: admin/partials/sl147_gift_add_form.php:46
+msgid "ADD"
+msgstr ""
+
+#: admin/partials/sl147_gift_form.php:7
+msgid "Add a new product"
+msgstr ""
+
+#. Description of the plugin
+msgid "Added gift to cart"
+msgstr ""
+
+#: includes/class-sl147_gift.php:170 admin/partials/sl147_gift_add_form.php:65
+msgid "Additional products"
+msgstr ""
+
+#: public/partials/sl147_gift_popup.php:9
+#: public/partials/sl147_gift_popup.php:56
+msgid "and you will receive"
+msgstr ""
+
+#: public/partials/sl147_gift_popup.php:39
+msgid "at least one of"
+msgstr ""
+
+#: includes/class-sl147_gift_options.php:104
+msgid "background color"
+msgstr ""
+
+#: public/partials/sl147_gift_popup.php:34
+msgid "Buy"
+msgstr ""
+
+#: includes/class-sl147_gift_options.php:107
+msgid "category promotional"
+msgstr ""
+
+#: admin/partials/sl147_gift_add_form.php:10
+#: admin/partials/sl147_gift_orders.php:9
+msgid "Choose a promotional product"
+msgstr ""
+
+#: admin/partials/sl147_gift_add_form.php:35
+msgid "Choose an additional product"
+msgstr ""
+
+#: admin/partials/sl147_gift_orders.php:34
+msgid "Date of purchase"
+msgstr ""
+
+#: admin/partials/sl147_gift_form.php:42 admin/partials/sl147_gift_form.php:80
+msgid "Date_from"
+msgstr ""
+
+#: admin/partials/sl147_gift_form.php:49 admin/partials/sl147_gift_form.php:81
+msgid "Date_to"
+msgstr ""
+
+#: admin/partials/sl147_gift_add_form.php:66
+#: admin/partials/sl147_gift_form.php:82
+msgid "Delete"
+msgstr ""
+
+#: public/partials/sl147_gift_popup.php:21
+#: public/partials/sl147_gift_popup.php:66
+msgid "for"
+msgstr ""
+
+#: public/partials/sl147_gift_popup.php:22
+#: public/partials/sl147_gift_popup.php:70
+msgid "free"
+msgstr ""
+
+#. Name of the plugin
+msgid "Gift to cart"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://vaolab.pl/"
+msgstr ""
+
+#: public/partials/sl147_gift_popup.php:32
+msgid "including buy"
+msgstr ""
+
+#: includes/class-sl147_gift_options.php:106
+msgid "link color"
+msgstr ""
+
+#: public/partials/sl147_gift_popup.php:5
+#: public/partials/sl147_gift_popup.php:30
+msgid "Make a purchase over"
+msgstr ""
+
+#: admin/partials/sl147_gift_form.php:28 admin/partials/sl147_gift_form.php:79
+msgid "Minimum amount"
+msgstr ""
+
+#: includes/class-sl147_gift_options.php:48
+#: includes/class-sl147_gift_options.php:60
+msgid "must be not empty"
+msgstr ""
+
+#: public/partials/sl147_gift_popup.php:37
+msgid "necessary"
+msgstr ""
+
+#: admin/partials/sl147_gift_add_form.php:21
+#: admin/partials/sl147_gift_orders.php:19
+msgid "NEXT"
+msgstr ""
+
+#: admin/partials/sl147_gift_orders.php:35
+msgid "Order total"
+msgstr ""
+
+#: admin/partials/sl147_gift_orders.php:32
+msgid "Order №"
+msgstr ""
+
+#: includes/class-sl147_gift_orders.php:18
+#: includes/class-sl147_gift_orders.php:19
+msgid "Orders"
+msgstr ""
+
+#: admin/partials/sl147_gift_orders.php:26
+msgid "Orders with a promotional product"
+msgstr ""
+
+#: includes/class-sl147_gift_options.php:108
+msgid "popup display check"
+msgstr ""
+
+#: admin/partials/sl147_gift_form.php:35 admin/partials/sl147_gift_form.php:78
+msgid "Price"
+msgstr ""
+
+#: admin/partials/sl147_gift_form.php:15 admin/partials/sl147_gift_form.php:77
+msgid "Product"
+msgstr ""
+
+#: admin/partials/sl147_gift_add_form.php:55
+msgid "Promotional product: "
+msgstr ""
+
+#: includes/class-sl147_gift.php:169
+msgid "Promotional products"
+msgstr ""
+
+#: includes/class-sl147_gift_options.php:110
+msgid "remove data from database when plugin is removed"
+msgstr ""
+
+#: admin/partials/sl147_gift_form.php:56
+msgid "SAVE"
+msgstr ""
+
+#: includes/class-sl147_gift_options.php:70
+#: includes/class-sl147_gift_options.php:71
+msgid "Settings"
+msgstr ""
+
+#: admin/partials/sl147_gift_form_update.php:3
+msgid "Settings updated"
+msgstr ""
+
+#: includes/class-sl147_gift_options.php:105
+msgid "text color"
+msgstr ""
+
+#: admin/partials/sl147_gift_orders.php:58
+msgid "Total"
+msgstr ""
+
+#: admin/partials/sl147_gift_orders.php:33
+msgid "User"
+msgstr ""
+
+#: includes/class-sl147_gift_options.php:109
+#, php-format
+msgid "width popup block %%"
+msgstr ""
+
+#. Author of the plugin
+msgid "Yaroslaw Livchak"
+msgstr ""

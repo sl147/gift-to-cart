@@ -1,0 +1,91 @@
+[v-cloak] {
+  display: none;
+}
+.sl147_form_block {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sl147_gift_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+.sl147_gift_block {
+  position: fixed;
+  font-size: 20px;
+  top: 49px;
+  display: block;
+  opacity: 1;
+  border: 1px solid;
+  border-radius: 5px 5px 5px 5px;
+  -webkit-box-shadow: 2px 8px 9px 0px #42445a;
+  box-shadow: 2px 8px 9px 0px #42445a;
+  z-index: 1999999999;
+  text-align: center;
+}
+@media only screen and (max-width: 1200px) {
+  .sl147_gift_block {
+    width: 55%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .sl147_gift_block {
+    width: 42%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .sl147_gift_block {
+    width: 70%;
+  }
+}
+.sl147_btn {
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.sl147_btn_delete {
+  width: 6%;
+}
+.sl147_gift_table {
+  font-size: 13px;
+}
+.sl147_gift_form {
+  margin-bottom: 30px;
+  margin-left: 60px;
+}
+.sl147_gift_add_form {
+  margin-bottom: 30px!important;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+/*@media only screen and (max-width : 1400px)
+
+@media only screen and (max-width : 1200px){
+
+} 
+
+@media only screen and (max-width : 1024px)
+
+@media only screen and (max-width : 992px)
+
+@media only screen and (max-width : 768px)
+
+@media only screen and (max-width : 568px
+
+@media only screen and (max-width : 480px)
+ */

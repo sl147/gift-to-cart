@@ -1,0 +1,81 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gift to cart\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-28 11:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0\n"
+"X-Domain: sl147_gift"
+
+#: admin/partials/sl147_gift_form.php:7
+msgid "Add a new product"
+msgstr ""
+
+#. Description of the plugin
+msgid "Added gift to cart"
+msgstr ""
+
+#: public/partials/sl147_gift_popup.php:5
+msgid "and you will receive"
+msgstr ""
+
+#: admin/partials/sl147_gift_form.php:42 admin/partials/sl147_gift_form.php:76
+msgid "Date_from"
+msgstr ""
+
+#: admin/partials/sl147_gift_form.php:47 admin/partials/sl147_gift_form.php:77
+msgid "Date_to"
+msgstr ""
+
+#: public/partials/sl147_gift_popup.php:9
+msgid "free"
+msgstr ""
+
+#. Name of the plugin
+msgid "Gift to cart"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://vaolab.pl/"
+msgstr ""
+
+#: public/partials/sl147_gift_popup.php:3
+msgid "Make a purchase over"
+msgstr ""
+
+#: admin/partials/sl147_gift_form.php:30 admin/partials/sl147_gift_form.php:75
+msgid "Minimum amount"
+msgstr ""
+
+#: admin/partials/sl147_gift_form.php:35 admin/partials/sl147_gift_form.php:74
+msgid "Price"
+msgstr ""
+
+#: admin/partials/sl147_gift_form.php:15
+msgid "Product"
+msgstr ""
+
+#: admin/partials/sl147_gift_form.php:72 admin/partials/sl147_gift_form.php:73
+msgid "product"
+msgstr ""
+
+#: sl147-gift.php:143
+msgid "Promotional products"
+msgstr ""
+
+#: admin/partials/sl147_gift_form.php:56
+msgid "SAVE"
+msgstr ""
+
+#. Author of the plugin
+msgid "Yaroslaw Livchak"
+msgstr ""
