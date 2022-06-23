@@ -109,7 +109,7 @@ class Sl147_gift_options {
 		$this->sl147_add_field($this->settings['width'],               __( 'width popup block %%', 'sl147_gift' ), 'number'); 
 		$this->sl147_add_field($this->settings['delete_check'],        __( 'remove data from database when plugin is removed', 'sl147_gift' ), 'checkbox');
 	}
-
+// Rezygnacja Z gratisu
 	private function sl147_add_field($name_field, $label, $type, $vals = ""){
 		add_settings_field(
 			$name_field,

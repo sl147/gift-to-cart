@@ -49,7 +49,7 @@ class Sl147_gift extends Sl147_gift_main {
 	public function sl147_add_gift(  ) {
 
 		if (!SL147_PRODUCT_ID) return;
-
+		if ($_SESSION['is_delete']) return;
 		$sl147_is_add_product = ($this->sl147_get_add_products_by_promotion_ID(SL147_PRODUCT_ID)) ? true : false;
 
 		if(($sl147_is_add_product &&  $this->sl147_is_additional_products_in_cart()) ||
@@ -57,6 +57,7 @@ class Sl147_gift extends Sl147_gift_main {
 			if( !WC()->cart->find_product_in_cart( WC()->cart->generate_cart_id( SL147_PRODUCT_ID ) ) ) {
 				$lan = WC()->cart->add_to_cart( SL147_PRODUCT_ID, $quantity = 1, $variation_id = 0, $variation = array(), $cart_item_data = array() );
 				$this->sl147_cart_calculate_totals();
+				$_SESSION['is_delete'] = true;
 			}
 		}else{
 			$sl147_product    = wc_get_product( SL147_PRODUCT_ID );
