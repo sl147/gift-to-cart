@@ -49,7 +49,6 @@ class Sl147_gift extends Sl147_gift_main {
 	public function sl147_add_gift(  ) {
 
 		if (!SL147_PRODUCT_ID) return;
-		if ($_SESSION['is_delete']) return;
 		$sl147_is_add_product = ($this->sl147_get_add_products_by_promotion_ID(SL147_PRODUCT_ID)) ? true : false;
 
 		if(($sl147_is_add_product &&  $this->sl147_is_additional_products_in_cart()) ||
