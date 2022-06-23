@@ -6,7 +6,6 @@ Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Adds a promotional product to the cart when certain conditions are met
 == Description ==
 
 Adds a promotional product to the cart when certain conditions are met
