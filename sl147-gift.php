@@ -16,6 +16,7 @@
  * Author:            Yaroslaw Livchak
  * Text Domain:       sl147_gift
  * Domain Path:       /languages
+ * WC tested up to:   6.6.0
  */
 
 if ( ! defined( 'WPINC' ) ) {
@@ -85,4 +86,11 @@ function run_sl147_gift() {
     $plugin->run();
 }
 
+add_action('woocommerce_before_cart', 'sl147_gift_start', 1);
+
+function sl147_gift_start() {
+    do_action( 'sl147_woocommerce_gift' );
+}
+
+do_action( 'sl147_woocommerce_gift' );
 run_sl147_gift();
